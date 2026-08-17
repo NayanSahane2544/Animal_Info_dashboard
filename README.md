@@ -61,11 +61,16 @@ streamlit run app.py
 📂 Project Structure
 
 *├── app.py                  # Main Streamlit application script
+
 *├── dataset.csv             # Biological dataset of ~275 species
+
 *├── requirements.txt        # Python package dependencies
+
 *├── images/                 # Folder containing animal images
+
 *└── README.md               # Project documentation
 
 
 👨‍💻 Author
+
 Nayan Sahane
