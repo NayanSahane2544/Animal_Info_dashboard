@@ -29,7 +29,7 @@ Follow these steps to run the dashboard locally on your machine.
 git clone [https://github.com/your-username/planet-zoo-dashboard.git](https://github.com/your-username/planet-zoo-dashboard.git)
 cd planet-zoo-dashboard
 ```
-2. Create a Virtual Environment
+**2. Create a Virtual Environment**
 It is highly recommended to use a virtual environment (venv) to manage dependencies.
 
 
@@ -41,18 +41,18 @@ venv\Scripts\activate
 python3 -m venv venv
 source venv/bin/activate
 
-3. Install Dependencies
+**3. Install Dependencies**
 
 pip install -r requirements.txt
 
 
-4. Add Images & Data
+**4. Add Images & Data**
 
 Ensure your dataset is named dataset.csv and is placed in the root directory.
 
 Create a folder named images/ in the root directory and add .jpg or .png images corresponding to the animal names (e.g., Lion.jpg).
 
-5. Run the Application
+**5. Run the Application**
 
 
 streamlit run app.py
@@ -60,11 +60,11 @@ streamlit run app.py
 
 📂 Project Structure
 
-├── app.py                  # Main Streamlit application script
-├── dataset.csv             # Biological dataset of ~275 species
-├── requirements.txt        # Python package dependencies
-├── images/                 # Folder containing animal images
-└── README.md               # Project documentation
+*├── app.py                  # Main Streamlit application script
+*├── dataset.csv             # Biological dataset of ~275 species
+*├── requirements.txt        # Python package dependencies
+*├── images/                 # Folder containing animal images
+*└── README.md               # Project documentation
 
 
 👨‍💻 Author
